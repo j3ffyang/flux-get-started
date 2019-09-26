@@ -10,13 +10,13 @@ metadata:
 spec:
   releaseName: mongodb
   chart:
-    repository: https://kubernetes-charts.storage.googleapis.com/
+    repository: http://mirror.azure.cn/kubernetes/charts/
     name: mongodb
     version: 4.9.0
   values:
     image:
       repository: bitnami/mongodb
-      tag: 4.0.6
+      tag: 4.0.3
     usePassword: false
     persistence:
       enabled: false
